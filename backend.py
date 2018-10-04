@@ -36,11 +36,4 @@ class Database:
         
     def __del__(self):
         self.conn.close()
-    #connect()
-    #insert("The Sun","John Martin",1918,231239102)
-
-
-    #delete(3)
-    # update(4,"The Moon","John Smooth",1917,39802173)
-    # print(view())
-    # print(search(author="John Smooth"))
+ 
